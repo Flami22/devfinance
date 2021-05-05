@@ -248,6 +248,7 @@ td.expense {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    z-index: 999;
 
 }
 
@@ -265,7 +266,7 @@ padding: 2.4rem;
 position: relative;
 width: 90%;
 max-width: 500px;
-
+z-index: 1;
 }
 
 /*------------ form -----------*/
@@ -326,6 +327,7 @@ footer {
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
     opacity: 0.6;
+    
 
 }
 
